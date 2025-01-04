@@ -1,0 +1,236 @@
+.DesignBlogsCards {
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+  
+    .DesignBlogsCardsHead {
+      padding: 20px;
+  
+      h3 {
+        color: red;
+        font-size: 15px;
+      }
+  
+      p {
+        font-size: 24px;
+        font-weight: 650;
+        line-height: 30px;
+      }
+    }
+  
+    .DesignBlogsCardsImg {
+      width: 100%;
+      overflow: hidden;
+      border-radius: 10px;
+      img {
+        border-radius: 10px;
+        width: 100%;
+        overflow: hidden;
+        transition: 0.3s ease-in-out;
+  
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  
+  .DesignReviewContainer {
+    background-color: rgb(237, 237, 237);
+  }
+  
+  .leadershiprightside {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-radius: 20px;
+  
+    .leadershiprightside_top {
+      background-color: #fbfbfd;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      .leadershiprightside_top_card {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+  
+        img {
+          border-radius: 50%;
+          width: 100%;
+          height: 100%;
+        }
+      }
+  
+      .leadershiprightside_top_txt {
+        h2 {
+          font-size: 18px;
+          color: #333;
+          font-weight: 600;
+          cursor: pointer;
+          transition: 0.5s ease-in-out;
+  
+          &:hover {
+            color: blue;
+          }
+        }
+      }
+    }
+  }
+  
+  .ReviewfinalCards {
+    background-color: #ffffff;
+    border-radius: 10px;
+  
+    .ReviewfinalCardVideo {
+      padding: 15px 30px;
+      margin-top: 10px;
+  
+      .ReviewfinalCardVideotxt {
+        h3 {
+          padding: 10px;
+          font-size: 20px;
+          font-weight: 650;
+          text-align: center;
+          border-bottom: 1px solid rgb(146, 146, 146);
+          margin-bottom: 20px;
+        }
+      }
+  
+      .ReviewfinalCardVideos {
+        width: 100%;
+        max-width: 300px;
+        height: 175px;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        position: relative;
+  
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s ease-in-out;
+  
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+  
+      .Reviewtextss p {
+        font-size: 18px;
+        font-weight: 550;
+        color: #333;
+      }
+    }
+  
+    @media (max-width: 1024px) {
+      .leadershiprightside {
+        grid-template-columns: 1fr;
+      }
+  
+      .ReviewfinalCardVideo {
+        padding: 10px;
+  
+        .ReviewfinalCardVideos {
+          max-width: 90%;
+          height: 150px;
+          margin: 0 auto 10px;
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .DesignBlogsCards {
+        margin-top: 10px;
+  
+        .DesignBlogsCardsHead {
+          padding: 10px;
+  
+          h3 {
+            font-size: 13px;
+          }
+  
+          p {
+            font-size: 18px;
+            line-height: 24px;
+          }
+        }
+  
+        .DesignBlogsCardsImg img {
+          transition: none;
+  
+          &:hover {
+            transform: none;
+          }
+        }
+      }
+  
+      .ReviewfinalCardVideo {
+        padding: 10px;
+  
+        .ReviewfinalCardVideos {
+          max-width: 100%;
+          height: 150px;
+          margin-bottom: 10px;
+        }
+      }
+  
+      .Reviewtextss p {
+        font-size: 16px;
+      }
+    }
+  
+    @media (max-width: 480px) {
+      .DesignBlogsCardsHead {
+        padding: 8px;
+  
+        h3 {
+          font-size: 12px;
+        }
+  
+        p {
+          font-size: 16px;
+          line-height: 22px;
+        }
+      }
+  
+      .leadershiprightside {
+        gap: 10px;
+  
+        .leadershiprightside_top {
+          flex-direction: column;
+  
+          .leadershiprightside_top_card {
+            margin-right: 0;
+            margin-bottom: 5px;
+          }
+  
+          .leadershiprightside_top_txt h2 {
+            font-size: 16px;
+          }
+        }
+      }
+  
+      .ReviewfinalCardVideo {
+        padding: 5px;
+  
+        .ReviewfinalCardVideos {
+          height: 120px;
+        }
+      }
+  
+      .Reviewtextss p {
+        font-size: 14px;
+      }
+    }
+  }
+  

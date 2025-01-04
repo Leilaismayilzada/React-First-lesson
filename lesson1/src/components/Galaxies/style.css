@@ -1,0 +1,368 @@
+.Galaxycosmos_first {
+  margin-top: 30px;
+}
+.Galaxycosmos_first .Galaxycosmos_first_main {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.Galaxycosmos_first .Galaxycosmos_first_main img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  transition: 0.4s ease-in-out;
+}
+.Galaxycosmos_first .Galaxycosmos_first_main img:hover {
+  transform: scale(1.2);
+}
+.Galaxycosmos_first .Galaxycosmos_first_main .Galaxycosmos_first_txt {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  margin: 10px 30px;
+  font-weight: 500;
+}
+.Galaxycosmos_first .Galaxycosmos_first_main .Galaxycosmos_first_txt h1 {
+  font-size: 20px;
+}
+.Galaxycosmos_first .Galaxycosmos_first_main .Galaxycosmos_first_txt p {
+  font-size: 30px;
+  line-height: 29px;
+  cursor: pointer;
+  margin-top: 10px;
+  position: relative;
+  display: inline;
+  background-image: linear-gradient(90deg, currentColor 0, currentColor);
+  background-size: 0 2px;
+  background-position: 0 95%;
+  transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  padding: 0.1% 0;
+  background-repeat: no-repeat;
+  color: inherit;
+  margin-bottom: 100px;
+}
+.Galaxycosmos_first .Galaxycosmos_first_main .Galaxycosmos_first_txt p::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transform-origin: left;
+  transition: width 0.3s ease-in-out;
+}
+.Galaxycosmos_first .Galaxycosmos_first_main .Galaxycosmos_first_txt p:hover::after {
+  width: 100%;
+}
+
+.Galaxysecondrow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.GalaxySecond {
+  margin-top: 30px;
+}
+.GalaxySecond .GalaxySecondimg {
+  width: 250px;
+  height: auto;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.GalaxySecond .GalaxySecondimg img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+.GalaxySecond .GalaxySecondimg img:hover {
+  transform: scale(1.05);
+}
+.GalaxySecond .GalaxySecondtxt {
+  padding: 10px;
+}
+.GalaxySecond .GalaxySecondtxt h1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.GalaxySecond .GalaxySecondtxt p {
+  font-size: 14px;
+  color: gray;
+}
+
+@media (max-width: 992px) {
+  .Galaxycosmos_first .Galaxycosmos_first_txt {
+    margin: 10px 20px;
+  }
+  .Galaxycosmos_first .Galaxycosmos_first_txt h1 {
+    font-size: 18px;
+  }
+  .Galaxycosmos_first .Galaxycosmos_first_txt p {
+    font-size: 24px;
+  }
+  .Galaxysecondrow {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .Galaxycosmos_first .Galaxycosmos_first_main img {
+    height: auto;
+  }
+  .Galaxycosmos_first .Galaxycosmos_first_txt {
+    margin: 10px 15px;
+  }
+  .Galaxycosmos_first .Galaxycosmos_first_txt h1 {
+    font-size: 16px;
+  }
+  .Galaxycosmos_first .Galaxycosmos_first_txt p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  .GalaxySecond .GalaxySecondimg {
+    max-width: 100%;
+    width: 100%;
+  }
+  .GalaxySecond .GalaxySecondtxt h1 {
+    font-size: 16px;
+  }
+  .GalaxySecond .GalaxySecondtxt p {
+    font-size: 12px;
+  }
+  .Galaxysecondrow {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 576px) {
+  .Galaxycosmos_first {
+    margin-top: 20px;
+  }
+  .Galaxycosmos_first .Galaxycosmos_first_txt {
+    margin: 5px 10px;
+  }
+  .Galaxycosmos_first .Galaxycosmos_first_txt h1 {
+    font-size: 14px;
+  }
+  .Galaxycosmos_first .Galaxycosmos_first_txt p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .GalaxySecond .GalaxySecondimg {
+    max-width: 100%;
+  }
+  .GalaxySecond .GalaxySecondtxt {
+    padding: 5px;
+  }
+  .GalaxySecond .GalaxySecondtxt h1 {
+    font-size: 14px;
+  }
+  .GalaxySecond .GalaxySecondtxt p {
+    font-size: 10px;
+  }
+  .Galaxysecondrow {
+    gap: 10px;
+  }
+}
+.GadgetBlog_colums {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(153, 153, 153);
+  transition: 0.3s ease;
+}
+
+.GadgetBlog_colums_img {
+  flex: 0 0 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.GadgetBlog_colums_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.GadgetBlog_colums_img:hover img {
+  transform: scale(1.1);
+}
+
+.GadgetBlog_colums_txt {
+  flex: 1;
+}
+
+.GadgetBlog_colums_txt h2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ff4a57;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.GadgetBlog_colums_txt p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 5px;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: -webkit-text-decoration 0.3s ease-in-out;
+  transition: text-decoration 0.3s ease-in-out;
+  transition: text-decoration 0.3s ease-in-out, -webkit-text-decoration 0.3s ease-in-out;
+}
+
+.GadgetBlog_colums:hover .GadgetBlog_colums_txt p {
+  text-decoration: underline;
+}
+
+.GadgetBlog_bigsideimg {
+  position: relative;
+  height: 600px;
+  margin-left: 20px;
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.GadgetBlog_bigsideimg img {
+  position: absolute;
+  inset: 0;
+  box-sizing: border-box;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 15px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  transition: 0.4s ease-in-out;
+}
+
+.GadgetBlog_bigsideimg img:hover {
+  transform: scale(1.15);
+}
+
+.GadgetBlog_bigsidetxt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: whitesmoke;
+  padding-left: 50px;
+}
+
+.GadgetBlog_bigsidetxt h2 {
+  font-size: 16px;
+}
+
+.GadgetBlog_bigsidetxt p {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+/* Tablet View */
+@media (max-width: 992px) {
+  .GadgetBlog_colums {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .GadgetBlog_colums_img {
+    flex: 0 0 100px;
+    height: 100px;
+  }
+  .GadgetBlog_colums_txt h2 {
+    font-size: 12px;
+  }
+  .GadgetBlog_colums_txt p {
+    font-size: 16px;
+  }
+  .GadgetBlog_bigsideimg {
+    height: 400px;
+    margin-left: 0;
+  }
+  .GadgetBlog_bigsidetxt h2 {
+    font-size: 14px;
+  }
+  .GadgetBlog_bigsidetxt p {
+    font-size: 24px;
+  }
+}
+/* Mobile View */
+@media (max-width: 768px) {
+  .GadgetBlog_colums {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .GadgetBlog_colums_img {
+    flex: 0 0 70px;
+    height: 70px;
+  }
+  .GadgetBlog_colums_txt h2 {
+    font-size: 10px;
+  }
+  .GadgetBlog_colums_txt p {
+    font-size: 14px;
+  }
+  .GadgetBlog_bigsideimg {
+    height: 300px;
+  }
+  .GadgetBlog_bigsidetxt {
+    padding-left: 20px;
+  }
+  .GadgetBlog_bigsidetxt h2 {
+    font-size: 12px;
+  }
+  .GadgetBlog_bigsidetxt p {
+    font-size: 20px;
+  }
+}
+/* Small Mobile View */
+@media (max-width: 576px) {
+  .GadgetBlog_colums {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .GadgetBlog_colums_img {
+    flex: 0 0 60px;
+    height: 60px;
+  }
+  .GadgetBlog_colums_txt h2 {
+    font-size: 8px;
+  }
+  .GadgetBlog_colums_txt p {
+    font-size: 12px;
+  }
+  .GadgetBlog_bigsideimg {
+    height: 200px;
+  }
+  .GadgetBlog_bigsidetxt {
+    padding-left: 10px;
+    text-align: center;
+  }
+  .GadgetBlog_bigsidetxt h2 {
+    font-size: 10px;
+  }
+  .GadgetBlog_bigsidetxt p {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */

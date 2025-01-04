@@ -1,0 +1,32 @@
+.ReviewContainer {
+  background-color: rgb(237, 237, 237);
+}
+
+.Reviewlinkslist ul {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.Reviewlinkslist ul li {
+  list-style: none;
+}
+.Reviewlinkslist ul li a {
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ced0d4;
+  border-radius: 6px;
+  padding: 0 18px;
+  height: 46px;
+  display: inline-block;
+  line-height: 46px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #878787;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

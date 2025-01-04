@@ -1,0 +1,237 @@
+{
+  "Galaxy": [
+    {
+      "id": 1,
+      "title": "Leadership",
+      "description": "Beauty of deep space. Billions of galaxies in the universe.",
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-09.webp?imwidth=640"
+    },
+    {
+      "id": 2,
+      "title": "Leadership",
+      "description": "Rocket Lab mission fails shortly after launch",
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-02.webp?imwidth=640"
+    },
+    {
+      "id": 3,
+      "title": "Technology",
+      "description": "Virtual Reality or Artificial Intelligence Technology",
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-03.webp?imwidth=640"
+    },
+    {
+      "id": 4,
+      "title": "Technology",
+      "description": "Security isn’t just a technology problem it’s about design, too",
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-dark-01.webp?imwidth=640"
+    },
+    {
+      "id": 5,
+      "title": "Technology",
+      "description": "Flutter: the good, the bad and the ugly",
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-10.webp?imwidth=640"
+    }
+  ],
+  "Blogar": [
+    {
+      "id": 1,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-09.webp?imwidth=640",
+      "title": "Leadership",
+      "header": "Beauty of deep space. Billions of galaxies in the universe.",
+      "name": "Ismat Jahan",
+      "date": "Jul 23 2022",
+      "time": "2 min read"
+    },
+    {
+      "id": 2,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-02.webp?imwidth=640",
+      "title": "Leadership",
+      "header": "Rocket Lab mission fails shortly after launch",
+      "name": "Rahabi Khan",
+      "date": "Jul 10 2022",
+      "time": "2 min read"
+    },
+    {
+      "id": 3,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-03.webp?imwidth=640",
+      "title": "Technology",
+      "header": "Virtual Reality or Artificial Intelligence Technology",
+      "name": "Ismat Jahan",
+      "date": "Jul 06 2022",
+      "time": "6 min read"
+    },
+    {
+      "id": 4,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-dark-01.webp?imwidth=640",
+      "title": "Technology",
+      "header": "Security isn’t just a technology problem it’s about design, too",
+      "name": "Jone Doe",
+      "date": "Mart 22 20222",
+      "time": "5 min read"
+    },
+    {
+      "id": 5,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-10.webp?imwidth=640",
+      "title": "Technology",
+      "header": "Flutter: the good, the bad and the ugly",
+      "name": "Jone Doe",
+      "date": "febr 20 20222",
+      "time": "5 min read"
+    }
+  ],
+  "Leadership": [
+    {
+      "id": 1,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-01.webp",
+      "title": "Understanding Leadership",
+      "header": "Exploring the key principles of effective leadership.",
+      "name": "John Doe",
+      "date": "Jan 01 2025",
+      "time": "10:30 AM"
+    },
+    {
+      "id": 2,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-02.webp",
+      "title": "Technology Trends 2025",
+      "header": "The latest advancements in AI and Machine Learning.",
+      "name": "Jane Smith",
+      "date": "Jan 02 2025",
+      "time": "11:00 AM"
+    },
+    {
+      "id": 3,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-03.webp",
+      "title": "Future of Space Exploration",
+      "header": "How private companies are changing the game.",
+      "name": "Elon Musk",
+      "date": "Jan 03 2025",
+      "time": "9:00 AM"
+    },
+    {
+      "id": 4,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-04.webp",
+      "title": "Health and Wellness Tips",
+      "header": "Stay healthy with these expert-backed tips.",
+      "name": "Dr. Emily Johnson",
+      "date": "Jan 04 2025",
+      "time": "8:30 AM"
+    },
+    {
+      "id": 5,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-05.webp",
+      "title": "Top 10 Travel Destinations",
+      "header": "Explore the most beautiful places in the world.",
+      "name": "Alex Morgan",
+      "date": "Jan 05 2025",
+      "time": "7:45 PM"
+    },
+    {
+      "id": 6,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-06.webp",
+      "title": "The Rise of Cryptocurrency",
+      "header": "How Bitcoin and Ethereum are shaping the future.",
+      "name": "Satoshi Nakamoto",
+      "date": "Jan 06 2025",
+      "time": "2:15 PM"
+    },
+    {
+      "id": 7,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-07.webp",
+      "title": "The Art of Minimalism",
+      "header": "How to simplify your life and focus on what matters.",
+      "name": "Marie Kondo",
+      "date": "Jan 07 2025",
+      "time": "4:00 PM"
+    },
+    {
+      "id": 8,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-08.webp",
+      "title": "Virtual Reality in 2025",
+      "header": "How VR is transforming industries and entertainment.",
+      "name": "John Carmack",
+      "date": "Jan 08 2025",
+      "time": "6:00 PM"
+    },
+    {
+      "id": 9,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-09.webp",
+      "title": "Climate Change Solutions",
+      "header": "What we can do to save our planet.",
+      "name": "Greta Thunberg",
+      "date": "Jan 09 2025",
+      "time": "3:30 PM"
+    },
+    {
+      "id": 10,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-10.webp",
+      "title": "Advancements in Robotics",
+      "header": "What the future holds for AI-powered robots.",
+      "name": "Sophia the Robot",
+      "date": "Jan 10 2025",
+      "time": "12:00 PM"
+    }
+  ],
+  "Design": [
+    {
+      "id": 1,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tech-10.webp?imwidth=384",
+      "header": "How to personalize your Google Chrome homepage with GIF",
+      "name": "Rose Mary",
+      "date": "Jul 22 2022",
+      "time": "4 min read"
+    },
+    {
+      "id": 2,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-02.webp?imwidth=384",
+      "header": "These 5 tips will help you nail your next design presentation",
+      "name": "Rahabi Khan",
+      "date": "Jul 22 2022",
+      "time": "3 min read"
+    },
+    {
+      "id": 3,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/post-single/post-single-01.webp?imwidth=640",
+      "header": "The underrated design book that transformed the",
+      "name": "Fatima Jane",
+      "date": "Mar 30 2022",
+      "time": "3 min read"
+    },
+    {
+      "id": 4,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-list-04.webp?imwidth=640",
+      "header": "New: Freehand Templates, built for the whole team",
+      "name": "Jone Doe",
+      "date": "Feb 16 2022",
+      "time": "3 min read"
+    }
+  ],
+  "Branding": [
+    {
+      "id": 1,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-seo-sm-04.webp?imwidth=384",
+      "header": "Facebook for Business: Marketing on Facebook",
+      "name": "Rose Mary",
+      "date": "Jul 22 2022",
+      "time": "4 min read"
+    }
+  ],
+  "Seo": [
+    {
+      "id": 1,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-seo-sm-02.webp?imwidth=384",
+      "header": "How to craft great page titles for SEO",
+      "name": "Rose Mary",
+      "date": "Jul 17 2022",
+      "time": "4 min read"
+    }
+  ],
+  "Research": [
+    {
+      "id": 1,
+      "image": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-seo-grid-01.webp?imwidth=384",
+      "header": "How to write a title with an optimal width for SEO",
+      "name": "Rahabi Khan",
+      "date": "Jun 15 2022",
+      "time": "4 min read"
+    }
+  ]
+}

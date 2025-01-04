@@ -1,0 +1,205 @@
+.GadgetBlog_colums {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(153, 153, 153);
+  transition: 0.3s ease;
+}
+
+.GadgetBlog_colums_img {
+  flex: 0 0 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.GadgetBlog_colums_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.GadgetBlog_colums_img:hover img {
+  transform: scale(1.1);
+}
+
+.GadgetBlog_colums_txt {
+  flex: 1;
+}
+
+.GadgetBlog_colums_txt h2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ff4a57;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.GadgetBlog_colums_txt p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 5px;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+.GadgetBlog_colums:hover .GadgetBlog_colums_txt p {
+  text-decoration: underline;
+}
+
+.GadgetBlog_bigsideimg {
+  position: relative;
+  height: 600px;
+  margin-left: 20px;
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.GadgetBlog_bigsideimg img {
+  position: absolute;
+  inset: 0;
+  box-sizing: border-box;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 15px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  transition: 0.4s ease-in-out;
+}
+
+.GadgetBlog_bigsideimg img:hover {
+  transform: scale(1.15);
+}
+
+.GadgetBlog_bigsidetxt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: whitesmoke;
+  padding-left: 50px;
+}
+
+.GadgetBlog_bigsidetxt h2 {
+  font-size: 16px;
+}
+
+.GadgetBlog_bigsidetxt p {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+/* Tablet View */
+@media (max-width: 992px) {
+  .GadgetBlog_colums {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .GadgetBlog_colums_img {
+    flex: 0 0 100px;
+    height: 100px;
+  }
+
+  .GadgetBlog_colums_txt h2 {
+    font-size: 12px;
+  }
+
+  .GadgetBlog_colums_txt p {
+    font-size: 16px;
+  }
+
+  .GadgetBlog_bigsideimg {
+    height: 400px;
+    margin-left: 0;
+  }
+
+  .GadgetBlog_bigsidetxt h2 {
+    font-size: 14px;
+  }
+
+  .GadgetBlog_bigsidetxt p {
+    font-size: 24px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .GadgetBlog_colums {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .GadgetBlog_colums_img {
+    flex: 0 0 70px;
+    height: 70px;
+  }
+
+  .GadgetBlog_colums_txt h2 {
+    font-size: 10px;
+  }
+
+  .GadgetBlog_colums_txt p {
+    font-size: 14px;
+  }
+
+  .GadgetBlog_bigsideimg {
+    height: 300px;
+  }
+
+  .GadgetBlog_bigsidetxt {
+    padding-left: 20px;
+  }
+
+  .GadgetBlog_bigsidetxt h2 {
+    font-size: 12px;
+  }
+
+  .GadgetBlog_bigsidetxt p {
+    font-size: 20px;
+  }
+}
+
+/* Small Mobile View */
+@media (max-width: 576px) {
+  .GadgetBlog_colums_img {
+    flex: 0 0 60px;
+    height: 60px;
+  }
+
+  .GadgetBlog_colums_txt h2 {
+    font-size: 8px;
+  }
+
+  .GadgetBlog_colums_txt p {
+    font-size: 12px;
+  }
+
+  .GadgetBlog_bigsideimg {
+    height: 200px;
+  }
+
+  .GadgetBlog_bigsidetxt {
+    padding-left: 10px;
+  }
+
+  .GadgetBlog_bigsidetxt h2 {
+    font-size: 10px;
+  }
+
+  .GadgetBlog_bigsidetxt p {
+    font-size: 16px;
+  }
+}

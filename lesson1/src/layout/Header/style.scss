@@ -1,0 +1,113 @@
+.navbaritemlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  background-color: #f8f9fa;
+  padding: 10px;
+
+  li {
+    position: relative;
+    cursor: pointer;
+    color: #878787;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+
+    &:hover {
+      color: #0d6efd;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      background-color: #0d6efd;
+      transition: width 0.3s ease;
+      border-radius: 2px;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+
+  &.open {
+    flex-direction: column;
+    background-color: #f8f9fa;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+}
+
+.burger-menu {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #000;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.form-control {
+  border-radius: 30px;
+  background-color: #f0f2f5;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.navInput {
+  background-color: #f0f2f5;
+  border: none;
+  color: #333;
+  padding: 5px 10px;
+  outline: none;
+  width: 100%;
+}
+
+.Navbtn {
+  border-radius: 50%;
+  padding: 10px 15px;
+  border: 0;
+  margin-left: 10px;
+  background-color: transparent;
+  transition: 0.4s ease-in-out;
+
+  &:hover {
+    background-color: #0d6efd;
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbaritemlist {
+    display: none;
+
+    &.open {
+      display: flex;
+    }
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  .Navbtn {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
