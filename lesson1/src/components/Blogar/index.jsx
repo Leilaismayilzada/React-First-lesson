@@ -11,7 +11,7 @@ const Blogar = () => {
       if (data) {
         setBlogar(data);
       } else {
-        console.error("Failed to fetch blog data");
+        console.error("Failed to fetch  data");
       }
     });
   }, []);
